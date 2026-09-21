@@ -1,0 +1,5 @@
+# Search crawler policy for the public static site.
+User-agent: *
+Allow: /
+
+Sitemap: https://andminin-engineering.github.io/portfolio.andminin.biz/sitemap.xml
