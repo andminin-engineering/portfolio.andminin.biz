@@ -443,10 +443,20 @@ a:focus-visible {
   gap: 24px;
 }
 
+.case-study__section h3,
 .case-study__section h4 {
   color: var(--text);
   font-size: 0.78rem;
   text-transform: uppercase;
+}
+
+/* Full-width card whose body holds three equal columns. */
+.case-study--columns {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.case-study--columns .case-study__body {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .case-study__section ul {
@@ -618,6 +628,7 @@ a:focus-visible {
   }
 
   .case-study__body,
+  .case-study--columns .case-study__body,
   .focus-grid,
   .expertise-grid,
   .evidence-grid,
