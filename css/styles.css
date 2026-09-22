@@ -186,7 +186,7 @@ a:focus-visible {
 .hero h1 {
   max-width: 880px;
   margin-top: 22px;
-  font-size: clamp(3.2rem, 9vw, 7.8rem);
+  font-size: clamp(3.2rem, 6vw, 5.2rem);
   line-height: 0.96;
   letter-spacing: 0;
   overflow-wrap: anywhere;
